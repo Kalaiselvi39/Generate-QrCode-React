@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-container h1{
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    color:#3498db ;
+}
+.qr-code-image{
+    width: 200px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3498db;
+}
+input[type='text']{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #3498db;
+    width: 100%;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.Generate-button{
+    background-color: #3498db;
+    border:3px solid #3498db;
+}
+.Generate-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.Download-button{
+    margin-left: 10px;
+    background-color: green;
+    border: 3px solid rgba(0, 128, 36, 0.936);
+}
+.Download-button:hover{
+    background-color: #008000;
+}
+a{
+    text-decoration: none;
+    color:#3498db ;
+}
